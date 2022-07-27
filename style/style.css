@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #121212;
+}
+
+:root {
+    --redColor: #ff0000da;
+}
+
+/* ==== SECTION ==== */
+
+section {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+section nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 100px 0 100px;
+}
+
+section nav .logo {
+    max-width: 150px;
+}
+
+section nav .logo a img {
+    width: 100%;
+}
+
+section nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+section nav ul li {
+    padding: 10px 25px;
+}
+
+section nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+section nav .menu-btn {
+    cursor: pointer;
+    display: none;
+}
+
+section nav .menu-btn img {
+    filter: invert(1);
+    width: 35px;
+}
+
+/* ==== CONTENT ==== */
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+.content .content-text {
+    padding: 0 7%;
+    max-width: 600px;
+    text-align: left;
+}
+
+.content .content-text h1 {
+    font-size: 3em;
+    color: white;
+    margin: 1em 0 0 0;
+}
+
+.content .content-text h1 span {
+    color: var(--redColor);
+    font-size: 3.5em;
+}
+
+.content .content-text p {
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5em;
+    padding: 10px;
+}
+
+.content .content-text button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--redColor);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 1em 0 0 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content .content-text button:hover {
+    transform: translateY(-10px);
+}
+
+.content .content-text button a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.content .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--redColor);
+    width: 100%;
+    height: 100%;
+    clip-path: circle(50% at bottom right);
+}
+
+/* ==== SOCIAL MEDIA ==== */
+
+.social-media {
+    max-width: 600px;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 2em 0 0 0;
+}
+
+.social-media .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.social-media .icon:hover {
+    background-color: var(--redColor);
+    transform: translateY(-10px);
+}
+
+.social-media .icon a img {
+    transform: scale(0.5);
+    filter: invert(1);
+}
+
+/* ==== IMAGES ==== */
+
+.images {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+.images .image {
+    position: relative;
+    width: 160px;
+}
+
+.images .image img {
+    width: 100%;
+}
+
+.images .image .img1 {
+    position: absolute;
+    bottom: 0;
+    transform: rotate(-15deg);
+}
+
+.images .image .img2 {
+    position: absolute;
+    bottom: 0;
+    transform: rotate(5deg);
+}
+
+.images .image .img3 {
+    position: absolute;
+    bottom: 0;
+    transform: rotate(15deg);
+}
+
+.images .image .img4 {
+    position: absolute;
+    bottom: 0;
+    transform: rotate(-15deg);
+}
