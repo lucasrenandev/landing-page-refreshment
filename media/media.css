@@ -1,4 +1,10 @@
 
+@media (min-width: 1200px) and (max-width: 1350px) {
+
+    .content .images {
+        display: none;
+    }
+}
 @media (max-width: 1200px) {
 
     section nav {
@@ -21,7 +27,7 @@
         justify-content: center;
     }
 
-    .circle, .images {
+    .content .circle, .images {
         display: none;
     }
 }
@@ -80,10 +86,7 @@
         max-width: 130px;
     }
 
-    .content {
-        padding: 0;
-    }
-
+   
     .content .content-text h1 {
         font-size: 1.8em;
     }
