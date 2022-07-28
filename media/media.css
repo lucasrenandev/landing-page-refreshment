@@ -79,7 +79,7 @@
         padding: 60px 0 0 0;
     }
 
-    .content .content-text h1 {
+    .content .content-text h2 {
         font-size: 2.5em;
     }
 
@@ -91,11 +91,11 @@
         max-width: 130px;
     }
 
-    .content .content-text h1 {
+    .content .content-text h2 {
         font-size: 1.8em;
     }
 
-    .content .content-text h1 span {
+    .content .content-text h2 span {
         font-size: 3.2em;
     }
 
