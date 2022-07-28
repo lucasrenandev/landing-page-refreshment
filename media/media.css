@@ -2,7 +2,7 @@
 @media (min-width: 1230px) and (max-width: 1350px) {
 
     .content .images .image {
-        width: 135px;
+        max-width: 135px;
     }
 
     .content .images .image img {
