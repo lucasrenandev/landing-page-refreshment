@@ -82,13 +82,13 @@ section nav .menu-btn img {
     text-align: left;
 }
 
-.content .content-text h1 {
+.content .content-text h2 {
     font-size: 3em;
     color: white;
     margin: 1em 0 0 0;
 }
 
-.content .content-text h1 span {
+.content .content-text h2 span {
     color: var(--redColor);
     font-size: 3.5em;
 }
